@@ -1,0 +1,172 @@
+
+#c1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+
+}
+
+
+
+.transition-couleur {
+    height:200px;
+    width: 300px;
+    background-color: rgb(208, 170, 254);
+    transition: 1s;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-right: 20px;
+
+}
+
+
+.transition-couleur:hover{
+    height:200px;
+    width: 300px;
+    background-color: rgb(169, 148, 255);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-right: 20px;
+}
+
+
+
+.transition-rotation{
+    background-color: rgb(129, 161, 248);
+    height:200px;
+    width: 300px;
+    transition: 1s;
+    transform: rotate(0deg);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-right: 20px;
+    border-radius: 0%;
+
+
+}
+
+.transition-rotation:hover {
+    background-color: rgb(129, 228, 248);
+    height:200px;
+    width: 300px;
+    transform: rotate(180deg);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-right: 20px;
+    border-radius: 100%;
+
+
+}
+
+
+
+
+.transition-taille{
+    background-color: rgb(129, 248, 218);
+    height:200px;
+    width: 300px;
+    transition: 1s;
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+    
+}
+
+
+.transition-taille:hover {
+    background-color: rgb(129, 248, 145);
+    height:100px;
+    width: 200px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+
+}
+
+
+
+
+.transition-deplacement{
+    background-color: rgb(129, 248, 218);
+    height:200px;
+    width: 300px;
+    transition: 1s;
+    margin-top: 20px;
+    transform: translate(0px,0px);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-right: 20px;
+}
+
+
+.transition-deplacement:hover {
+    background-color: rgb(129, 248, 145);
+    height:200px;
+    width: 300px;
+    margin-top: 20px;
+    transform: translate(200px,100px);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-right: 20px;
+}
+
+
+
+
+.transition-opacité{
+    background-color: rgb(173, 248, 129);
+    height:200px;
+    width: 300px;
+    transition: 1s;
+    margin-top: 20px;
+    opacity:100% ;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-right: 20px;
+}
+
+
+.transition-opacité:hover {
+    background-color: rgb(153, 248, 129);
+    height:200px;
+    width: 300px;
+    margin-top: 20px;
+    opacity:25% ;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-right: 20px;
+   
+}
+
+
+
+
+.transition-echelle{
+    background-color: rgb(206, 248, 129);
+    height:200px;
+    width: 300px;
+    margin-top: 20px;
+    transition: 1s;
+    margin-top: 20px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+    
+}
+
+
+.transition-echelle:hover {
+    background-color: rgb(248, 242, 129);
+    height:200px;
+    width: 300px;
+    margin-top: 20px;
+    margin-top: 20px;
+    transform: scale(3,2.5);
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+}
+
+
+
+
